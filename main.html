@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIA Roles Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Heading with ARIA role -->
+    <h1 role="heading">Welcome to ARIA Roles Example</h1>
 
+    <!-- Navigation with ARIA role -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#home">Home</a></li>
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image with ARIA role -->
+    <img src="https://wallpapercave.com/wp/wp9139824.jpg" alt="Image" role="img" width="100vw" height="100vh">
+
+    <!-- Brief description -->
+    <p>This is a brief description of the ARIA roles example. The ARIA roles help assistive technologies understand the purpose of elements on a web page.</p>
+
+    <!-- List with ARIA role -->
+    <ul role="list">
+        <li role="listitem">Item 1</li>
+        <li role="listitem">Item 2</li>
+        <li role="listitem">Item 3</li>
+    </ul>
 </body>
-
 </html>
